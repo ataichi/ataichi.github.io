@@ -1,16 +1,6 @@
 ---
-BlazeMeter:
--Insert here
--Insert here
--Insert here
--Insert here
-
-Load Impact: 
--Insert here
--Insert here
--Insert here
--Insert here
-
+BlazeMeter: Insert here
+Load Impact: Insert here
 ---
 
 # BlazeMeter and Load Impact Tutorial
