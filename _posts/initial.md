@@ -1,6 +1,6 @@
 ---
-layout: post
-title: BlazeMeter and Load Impact 
+BlazeMeter: Insert here
+Load Impact: Insert here
 ---
 
 # BlazeMeter and Load Impact Tutorial
