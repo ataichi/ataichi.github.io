@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tutorial List
-permalink: /tutorial-list/
+permalink: /:tutorial-list/
 ---
 
 # BlazeMeter and Load Impact Tutorial
