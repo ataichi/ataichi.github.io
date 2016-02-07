@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bluemix Basics
-permalink: /tutorial/
+permalink: /bluemix-basics/
 ---
 
 ##Application Development Tutorial
