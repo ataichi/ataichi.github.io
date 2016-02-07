@@ -1,6 +1,7 @@
 ---
-BlazeMeter: Insert here
-Load Impact: Insert here
+layout: post
+title: Tutorial List
+permalink: /tutorial-list/
 ---
 
 # BlazeMeter and Load Impact Tutorial
