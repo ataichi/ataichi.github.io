@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Hello
 ---
 
-testing
+Proceed and click 'Tutorials' from the navigator.
