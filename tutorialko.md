@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BlazeMeter and Load Impact Tutorial
+title: Performance Test Tools Tutorials
 permalink: /tutorial/
 ---
 
