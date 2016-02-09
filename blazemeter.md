@@ -37,13 +37,18 @@ In this tutorial, a sample jsp application will be deployed in Bluemix. Blazemet
 5. Upload the sample jsp application's war file by pushing it to the cloud.
 
 	```
-	> cf push blazetutoial-<name> -m 256M -p blazemeter.war
+	> cf push blazetutorial-<name> -m 256M -p blazemeter.war
 	```
 	
 	`-m` to specify the memory to be allocated for the application being pushed (`256M`)
 	
 	`-p` to specify the file to be uploaded (`blazemeter.war`)
 	
+	`<name>` is for you to have a unique bluemix url
+	
+6. Go to your [Bluemix](https://ibm.biz/bluemixph) browser and click Dashboard from the top navigator.
+7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button.
+8. 
 
 
 
