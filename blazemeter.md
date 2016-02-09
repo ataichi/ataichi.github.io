@@ -23,7 +23,10 @@ In this tutorial, an sample jsp application will be deployed in Bluemix. Blazeme
 	```text		
 	> cf login -a https://api.ng.bluemix.net -s dev
 	```
--a to specify the API endpoint (https://api.ng.bluemix.net)
--s to specify space name (dev)
-4. 
+	`-a` to specify the API endpoint (https://api.ng.bluemix.net)
+	`-s` to specify space name (dev)
+4. 	
+	```text
+	> cf push myfirstapp-<your_name> -m 256M -p PostgreSQLUpload.war
+	```
 
