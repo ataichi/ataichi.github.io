@@ -27,9 +27,9 @@ In this tutorial, an sample jsp application will be deployed in Bluemix. Blazeme
 	> cf login -a https://api.ng.bluemix.net -s dev
 	```
 	
-	`-a` to specify the API endpoint (https://api.ng.bluemix.net)
+	`-a` to specify the API endpoint (`https://api.ng.bluemix.net`)
 	
-	`-s` to specify space name (dev)
+	`-s` to specify space name (`dev`)
 	
 4. 	
 
