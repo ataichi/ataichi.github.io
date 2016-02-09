@@ -28,7 +28,9 @@ In this tutorial, an sample jsp application will be deployed in Bluemix. Blazeme
 	```
 	
 	`-a` to specify the API endpoint (https://api.ng.bluemix.net)
+	
 	`-s` to specify space name (dev)
+	
 4. 	
 
 
