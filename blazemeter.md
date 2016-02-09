@@ -5,3 +5,5 @@ permalink: /blazemeter/
 ---
 
 EDITING
+
+..1.Login to Bluemix.
