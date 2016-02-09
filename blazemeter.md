@@ -33,6 +33,24 @@ In this tutorial, a sample jsp application will be deployed in Bluemix. Blazemet
 	
 	`-s` to specify space name (`dev`)
 	
-4. 	
+4. You will be asked for your email and password (bluemix account).
+5. Upload the sample jsp application's war file by pushing it to the cloud.
+
+	```
+	> cf push blazetutoial-<name> -m 256M -p blazemeter.war
+	```
+	
+	`-m` to specify the memory to be allocated for the application being pushed (`256M`)
+	
+	`-p` to specify the file to be uploaded (`blazemeter.war`)
+	
+
+
+
+
+
+
+
+
 
 
