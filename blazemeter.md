@@ -16,16 +16,16 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 1. Go to [Bluemix](https://ibm.biz/bluemixph) and signup/login.
 
 #### Deploy an Application
-1. Open a terminal, and create a new directory named `blazemeterT` in the root directory.
+1. Open a terminal, and create a new directory named `blazemeter` in the root directory.
 
 	```
-	> mkdir blazemeterT
-	> cd blazemeterT
+	> mkdir blazemeter
+	> cd blazemeter
 	```
 	
-2. Download the war file (the war file contains the application), and move it in the `blazemeterT` directory.
+2. Download the war file (the war file contains the application), and move it in the `blazemeter` directory.
 3. Login to Bluemix using the cf tool by typing this to the terminal:
->Go to the path directory of `blazemeterT`. Make sure that the `dev` space was already created inside your bluemix account.
+>Go to the path directory of `blazemeter`. Make sure that the `dev` space was already created inside your bluemix account.
 	
 	```		
 	> cf login -a https://api.ng.bluemix.net -s dev
@@ -49,9 +49,15 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 	`<name>` is for you to have a unique bluemix url
 	
 6. Go to your [Bluemix](https://ibm.biz/bluemixph) browser and click Dashboard from the top navigator.
-7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button.
-8. 
+7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button within its box.
+>Take note of the url of the application.
 
+#### Test with BlazeMeter
+1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
+2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click create.
+3. Wait for it.. until the `OPEN BLAZEMETER DASHBOARD` appears, then click it. You will be redirected to the blazemeter site.
+4. Click `Add URL List Test`.
+5. 
 
 
 
