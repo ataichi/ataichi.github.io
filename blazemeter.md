@@ -8,7 +8,8 @@ EDITING
 
 **Pre-requisites**: Installation of CloudFoundry Tool
 
-In this tutorial, a sample jsp application will be deployed in Bluemix. Blazemeter will be used to test the site url if it can handle multiple virtual users accessing at the same time.
+In this tutorial, a sample jsp application will be deployed in Bluemix. 
+Blazemeter will be used to test the site url if it can handle multiple virtual users accessing at the same time.
 
 #### Create a Bluemix Account or Login
 1. Go to [Bluemix](https://ibm.biz/bluemixph) and signup/login.
