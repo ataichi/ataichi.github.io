@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance Test Tools Tutorials
+title: Performance Test Tools
 permalink: /tutorial/
 ---
 
