@@ -52,12 +52,19 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button within its box.
 >Take note of the url of the application.
 
+Application deployment successful.
+
 #### Test with BlazeMeter
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
 2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click create.
 3. Wait for it.. until the `OPEN BLAZEMETER DASHBOARD` appears, then click it. You will be redirected to the blazemeter site.
 4. Click `Add URL List Test`.
-5. 
+5. Type `Login page` in the http label field. This will be the name of your page in your report. Choose `GET` from the dropdown.
+6. Paste the URL copied earlier from the deployed application.
+7. Select any from the location. This will indicate where would the virtual users being created be coming from.
+8. Adjust the virtual users to 50. 
+
+
 
 
 
