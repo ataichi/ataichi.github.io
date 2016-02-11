@@ -50,7 +50,6 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 	
 6. Go to your [Bluemix](https://ibm.biz/bluemixph) browser and click Dashboard from the top navigator.
 7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button within its box.
-
 >Take note of the url of the application.
 
 Application deployment successful.
