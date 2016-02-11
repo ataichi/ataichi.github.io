@@ -55,6 +55,15 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 
 Application deployment successful.
 
+#### Binding a Service
+1. From the Dashboard, click the box of the application `blazetutorial-<name>`.
+2. Scroll down and look for `ADD A SERVICE OR API`, click it.
+3. Scroll down to bottom of the page and click the `Bluemix Labs Catalog`.
+4. Enter `postgre` to the search field. Then you should see the postgresql service, click it.
+5. Click create. You will be prompted to restage. Click `Restage`.
+6. 
+
+
 #### Test with BlazeMeter
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
 2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click create.
