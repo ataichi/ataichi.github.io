@@ -39,12 +39,12 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 5. Upload the sample jsp application's war file by pushing it to the cloud.
 
 	```
-	> cf push blazetutorial-<name> -m 256M -p blazemeter.war
+	> cf push blazetutorial-<name> -m 256M -p blaze.war
 	```
 	
 	`-m` to specify the memory to be allocated for the application being pushed (`256M`)
 	
-	`-p` to specify the file to be uploaded (`blazemeter.war`)
+	`-p` to specify the file to be uploaded (`blaze.war`)
 	
 	`<name>` is for you to have a unique bluemix url
 	
