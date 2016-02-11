@@ -23,7 +23,7 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 	> cd blazemeter
 	```
 	
-2. Download the [blaze.war](https://github.com/ataichi/ataichi.github.io/blob/master/downloadables/blaze.war) file (the war file contains the application), and move it in the `blazemeter` directory.
+2. Download the [blaze.war](https://github.com/ataichi/ataichi.github.io/blob/master/downloadables/blaze.war?raw=true) file (the war file that contains the application), and move it in the `blazemeter` directory.
 3. Login to Bluemix using the cf tool by typing this to the terminal:
 >Go to the path directory of `blazemeter`. Make sure that the `dev` space was already created inside your bluemix account.
 	
