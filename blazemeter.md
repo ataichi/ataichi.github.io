@@ -23,7 +23,7 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 	> cd blazemeter
 	```
 	
-2. Download the war file (the war file contains the application), and move it in the `blazemeter` directory.
+2. Download the [blaze.war](https://github.com/ataichi/ataichi.github.io/blob/master/downloadables/blaze.war?raw=true) file (the war file that contains the application), and move it in the `blazemeter` directory.
 3. Login to Bluemix using the cf tool by typing this to the terminal:
 >Go to the path directory of `blazemeter`. Make sure that the `dev` space was already created inside your bluemix account.
 	
@@ -39,17 +39,18 @@ Blazemeter will be used to test the site url if it can handle multiple virtual u
 5. Upload the sample jsp application's war file by pushing it to the cloud.
 
 	```
-	> cf push blazetutorial-<name> -m 256M -p blazemeter.war
+	> cf push blazetutorial-<name> -m 256M -p blaze.war
 	```
 	
 	`-m` to specify the memory to be allocated for the application being pushed (`256M`)
 	
-	`-p` to specify the file to be uploaded (`blazemeter.war`)
+	`-p` to specify the file to be uploaded (`blaze.war`)
 	
 	`<name>` is for you to have a unique bluemix url
 	
 6. Go to your [Bluemix](https://ibm.biz/bluemixph) browser and click Dashboard from the top navigator.
 7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button within its box.
+ 
 >Take note of the url of the application.
 
 Application deployment successful.
