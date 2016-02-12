@@ -76,6 +76,8 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
 2. In the search bar, type `Load`. Choose `Load Impact` under DevOps, supply a service name and click `Create`.
 3. Click the `OPEN LOAD IMPACT DASHBOARD`.
-4. You will be asked to enter a URL to test. Paste the login URL copied earlier from the deployed application. (http://loadimpacttutorial-<name>.mybluemix.net/BD0.jsp)
-5. 
+4. You will be asked to enter a URL to test. Paste the login URL copied earlier from the deployed application. `http://loadimpacttutorial-<name>.mybluemix.net/BD0.jsp`
+5. Put `100` to Max VUs, and 5 in Duration (mins).
+6. Click the `Run test` option.
+7. To see the reports, click `Tests` from the left menu. Click the name of the recent test made, and then click `View results`.
 
