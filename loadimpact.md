@@ -83,7 +83,6 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 
 >If you are interested to know advanced testing with load impact, they have their own youtube channel that will guide you [here](https://www.youtube.com/channel/UC8ryLdIbmkVJq4Zt613oZPQ).
 
-
 #### Delete the Sample Application for Housekeeping
 1. Go to [Bluemix](www.ibm.biz/bluemixph).
 2. Click `Dashboard`.
