@@ -14,14 +14,14 @@ Load Impact will be used to test the site if it can handle multiple virtual user
 1. Go to [Bluemix](https://ibm.biz/bluemixph) and signup/login.
 
 #### Deploy an Application
-1. Open a terminal, and create a new directory named `blazemeter` in the root directory.
+1. Open a terminal, and create a new directory named `loadimpact` in the root directory.
 
 	```
 	> mkdir loadimpact
 	> cd loadimpact
 	```
 	
-2. Download the [blaze.war](https://github.com/ataichi/ataichi.github.io/blob/master/downloadables/blaze.war?raw=true) file (the war file that contains the application), and move it in the `blazemeter` directory.
+2. Download the [blaze.war](https://github.com/ataichi/ataichi.github.io/blob/master/downloadables/blaze.war?raw=true) file (the war file that contains the application), and move it in the `loadimpact` directory.
 3. Login to Bluemix using the cf tool by typing this to the terminal:
 >Go to the path directory of `loadimpact`. Make sure that the `dev` space was already created inside your bluemix account.
 	
@@ -47,19 +47,19 @@ Load Impact will be used to test the site if it can handle multiple virtual user
 	`<name>` is for you to have a unique bluemix url
 	
 6. Go to your [Bluemix](https://ibm.biz/bluemixph) browser and click Dashboard from the top navigator.
-7. From the Dashboard, you'll see your project `blazetutorial-<name>`. Click the Deploy button within its box.
+7. From the Dashboard, you'll see your project `loadimpacttutorial-<name>`. Click the Deploy button within its box.
  
 >Take note of the url of the application.
 
 Application deployment successful.
 
 #### Binding a Service
-1. From the Dashboard, click the box of the application `blazetutorial-<name>`.
+1. From the Dashboard, click the box of the application `loadimpacttutorial-<name>`.
 2. Scroll down and look for `ADD A SERVICE OR API`, click it.
 3. Scroll down to bottom of the page and click the `Bluemix Labs Catalog`.
 4. Enter `postgre` to the search field. Then you should see the postgresql service, click it.
 5. Click create. You will be prompted to restage. Click `Restage`.
-6. Open to a new browser `http://blazetutorial-<name>.mybluemix.net/userlogin.jsp`. 
+6. Open to a new browser `http://loadimpacttutorial-<name>.mybluemix.net/userlogin.jsp`. 
 
 >Take note of the login page url.
 
@@ -74,6 +74,6 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 
 #### Testing with Load Impact
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
-2. In the search bar, type `BlazeMeter`. Choose `Load Impact` under DevOps, supply a service name and click `Create`.
+2. In the search bar, type `Load`. Choose `Load Impact` under DevOps, supply a service name and click `Create`.
 3. 
 
