@@ -84,7 +84,6 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 7. Select any from the location in the Load Scenario Properties area. This will indicate where would the virtual users being created be imitated to be coming from.
 8. Check the Sandbox mode box. Notice the change in the range of maximum virtual users allowed to be tested.
 9. Uncheck the sandbox mode. 
-
 >Sandbox mode is a security mechanism that protects live servers and data from being damaged. So if you're going to test a website with live data in it, please check the sandbox mode to lighten the load being pushed by blazemeter.
 
 10. Adjust the virtual users to 50. (Since it's a free plan, it's only up to 50)
