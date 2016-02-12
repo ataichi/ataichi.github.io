@@ -72,7 +72,6 @@ email: `john_doe@gmail.com` with the password: `johnjojon`.
 or
 
 email: `afemaledear@gmail.com` with the password: `doenut`. 
-
 8. After logging in, take note of this url too.
 
 #### Test with BlazeMeter
