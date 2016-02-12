@@ -4,8 +4,6 @@ title: BlazeMeter Tutorial
 permalink: /blazemeter/
 ---
 
-EDITING
-
 **Pre-requisites**: Installation of CloudFoundry Tool
 
 In this tutorial, a sample jsp application will be deployed in Bluemix. 
