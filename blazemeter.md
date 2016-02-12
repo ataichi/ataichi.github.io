@@ -93,6 +93,7 @@ email: `afemaledear@gmail.com` with the password: `doenut`.
 17. Name your test as `E banking` then click the `Save` button again.
 18. In the left of E banking, click the play green button.
 19. A Launch Test message will be displayed, click the `Launch Servers` button.
+20. Wait for your test to finish and done. While the test runs, it displays a real time generated reports. 
 
 
 
