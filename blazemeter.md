@@ -62,7 +62,9 @@ Application deployment successful.
 4. Enter `postgre` to the search field. Then you should see the postgresql service, click it.
 5. Click create. You will be prompted to restage. Click `Restage`.
 6. Open to a new browser `http://blazetutorial-<name>.mybluemix.net/userlogin.jsp`. 
+
 >Take note of the login page url.
+
 7.Log in using either as
 
 email: `john_doe@gmail.com` with the password: `johnjojon`.
@@ -94,7 +96,7 @@ email: `afemaledear@gmail.com` with the password: `doenut`.
 18. In the left of E banking, click the play green button.
 19. A Launch Test message will be displayed, click the `Launch Servers` button.
 20. While the test runs, it displays a real time generated reports. Wait for your test to finish and done.
-21. Examine reports especially the `Load Report`. Hover to one of the lines, it displays how long it took for the page to load given the number of virtual users created to be accessing it. 
+21. Examine reports especially the `Load Report`. Unclick `ALL` from the Labels and click `View Account Page`. Hover to one of the lines, it displays how long it took for the page to load given the number of virtual users created to be accessing it. 
 
 
 
