@@ -75,5 +75,7 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 #### Testing with Load Impact
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
 2. In the search bar, type `Load`. Choose `Load Impact` under DevOps, supply a service name and click `Create`.
-3. 
+3. Click the `OPEN LOAD IMPACT DASHBOARD`.
+4. You will be asked to enter a URL to test. Paste the login URL copied earlier from the deployed application. (http://loadimpacttutorial-<name>.mybluemix.net/BD0.jsp)
+5. 
 
