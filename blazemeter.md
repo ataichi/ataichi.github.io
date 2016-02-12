@@ -86,7 +86,6 @@ email: `afemaledear@gmail.com` with the password: `doenut`.
 8. Check the Sandbox mode box. Notice the change in the range of maximum virtual users allowed to be tested.
 
 >Sandbox mode is a security mechanism that protects live servers and data from being damaged. So if you're going to test a website with live data in it, please check the sandbox mode to lighten the load being pushed by blazemeter.
-
 9. Uncheck the sandbox mode.
 10. Adjust the virtual users to 50. (Since it's a free plan, it's only up to 50)
 11. Let all other values be untouched.
