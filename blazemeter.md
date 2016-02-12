@@ -97,4 +97,8 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 20. While the test runs, it displays a real time generated reports. Wait for your test to finish and done.
 21. Examine reports especially the `Load Report`. Unclick `ALL` from the Labels and click `View Account Page`. Hover to one of the lines, it displays how long it took for the page to load given the number of virtual users created to be accessing it. 
 
-
+#### Delete the Sample Application for Housekeeping
+1. Go to [Bluemix](www.ibm.biz/bluemixph).
+2. Click `Dashboard`.
+3. From the Applications List, click the gear icon.
+4. Choose `Delete App`.
