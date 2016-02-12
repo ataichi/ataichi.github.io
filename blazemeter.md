@@ -93,7 +93,8 @@ email: `afemaledear@gmail.com` with the password: `doenut`.
 17. Name your test as `E banking` then click the `Save` button again.
 18. In the left of E banking, click the play green button.
 19. A Launch Test message will be displayed, click the `Launch Servers` button.
-20. Wait for your test to finish and done. While the test runs, it displays a real time generated reports. 
+20. While the test runs, it displays a real time generated reports. Wait for your test to finish and done.
+21. Examine reports especially the `Load Report`. Hover to one of the lines, it displays how long it took for the page to load given the number of virtual users created to be accessing it. 
 
 
 
