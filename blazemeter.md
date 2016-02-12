@@ -61,18 +61,34 @@ Application deployment successful.
 3. Scroll down to bottom of the page and click the `Bluemix Labs Catalog`.
 4. Enter `postgre` to the search field. Then you should see the postgresql service, click it.
 5. Click create. You will be prompted to restage. Click `Restage`.
-6. 
+6. Open to a new browser `http://blazetutorial-<name>.mybluemix.net/userlogin.jsp`. 
+>Take note of the login page url.
+7.Log in using either as
 
+email: `john_doe@gmail.com` with the password: `johnjojon`.
+
+or
+
+email: `afemaledear@gmail.com` with the password: `doenut`. 
 
 #### Test with BlazeMeter
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
-2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click create.
+2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click `Create`.
 3. Wait for it.. until the `OPEN BLAZEMETER DASHBOARD` appears, then click it. You will be redirected to the blazemeter site.
 4. Click `Add URL List Test`.
 5. Type `Login page` in the http label field. This will be the name of your page in your report. Choose `GET` from the dropdown.
-6. Paste the URL copied earlier from the deployed application.
-7. Select any from the location. This will indicate where would the virtual users being created be coming from.
-8. Adjust the virtual users to 50. 
+6. Paste the login URL copied earlier from the deployed application in the `Enter request URL` field. (`http://blazetutorial-<name>.mybluemix.net/userlogin.jsp`)
+7. Select any from the location in the Load Scenario Properties area. This will indicate where would the virtual users being created be imitated to be coming from.
+8. Check the Sandbox mode box. Notice the change in the range of maximum virtual users allowed to be tested.
+>Sandbox mode is a security mechanism that protects live servers and data from being damaged. So if you're going to test live a site with live data in it, please check the sandbox mode to lighten the load being pushed by blazemeter.
+
+9. Uncheck the sandbox mode.
+10. Adjust the virtual users to 50. (Since it's a free plan, it's only up to 50)
+11. Let all other values be untouched.
+12. Add another url in the Http Urls Test by clicking the + symbol.
+13. Enter an http label called as `View Account Page`.
+14. In the enter request url field, put `http://blazetutorial-<name>.mybluemix.net/BD0.jsp`.
+15. 
 
 
 
