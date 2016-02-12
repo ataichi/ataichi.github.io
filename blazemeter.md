@@ -83,10 +83,10 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 6. Paste the login URL copied earlier from the deployed application in the `Enter request URL` field. (`http://blazetutorial-<name>.mybluemix.net/userlogin.jsp`)
 7. Select any from the location in the Load Scenario Properties area. This will indicate where would the virtual users being created be imitated to be coming from.
 8. Check the Sandbox mode box. Notice the change in the range of maximum virtual users allowed to be tested.
+9. Uncheck the sandbox mode. 
 
 >Sandbox mode is a security mechanism that protects live servers and data from being damaged. So if you're going to test a website with live data in it, please check the sandbox mode to lighten the load being pushed by blazemeter.
-<br>
-9. Uncheck the sandbox mode.
+
 10. Adjust the virtual users to 50. (Since it's a free plan, it's only up to 50)
 11. Let all other values be untouched.
 12. Add another url in the Http Urls Test by clicking the + symbol.
@@ -99,13 +99,5 @@ email: `afemaledear@gmail.com` with the password: `doenut`. <br>
 19. A Launch Test message will be displayed, click the `Launch Servers` button.
 20. While the test runs, it displays a real time generated reports. Wait for your test to finish and done.
 21. Examine reports especially the `Load Report`. Unclick `ALL` from the Labels and click `View Account Page`. Hover to one of the lines, it displays how long it took for the page to load given the number of virtual users created to be accessing it. 
-
-
-
-
-
-
-
-
 
 
