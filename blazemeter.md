@@ -73,6 +73,8 @@ or
 
 email: `afemaledear@gmail.com` with the password: `doenut`. 
 
+8. After logging in, take note of this url too.
+
 #### Test with BlazeMeter
 1. Go to Bluemix. (While logged in) Click `Dashboard` and click `USE SERVICES OR APIS`.
 2. In the search bar, type `BlazeMeter`. Choose `BlazeMeter` under DevOps, supply a service name and click `Create`.
